@@ -1,5 +1,5 @@
 cask "yes-sessions" do
-  version "5.7.0"
+  version "5.7.8"
   sha256 :no_check
 
   url "https://github.com/KrabsWong/agent-manager/releases/download/v#{version}/Yes-Sessions-#{version}-arm64.dmg"
