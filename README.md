@@ -2,6 +2,9 @@
 
 🍺 Homebrew Tap for [Yes Sessions](https://github.com/KrabsWong/agent-manager) - AI Session Manager
 
+<img width="600" alt="1" src="https://github.com/user-attachments/assets/4abe053f-d52f-4e94-a031-f32d9d6df8fc" />
+
+
 ## Installation
 
 ```bash
