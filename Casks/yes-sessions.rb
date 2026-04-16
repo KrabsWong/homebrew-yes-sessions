@@ -12,6 +12,12 @@ cask "yes-sessions" do
 
   app "Yes-Sessions.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "#{appdir}/Yes-Sessions.app"],
+      sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/yes-sessions",
     "~/Library/Preferences/com.yes-sessions.plist",
