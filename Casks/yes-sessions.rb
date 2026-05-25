@@ -1,8 +1,8 @@
 cask "yes-sessions" do
-  version "9.1.1"
-  sha256 "3b9295879656acca228fa923e6f395d2e9e36c6b3562dfd633f98584c4d02c65"
+  version "9.1.2"
+  sha256 "b38f95e3842e50457a3fbca8f6b157cd5bf0faf0e045945a8dee7a770fdb5c09"
 
-  url "https://github.com/KrabsWong/homebrew-yes-sessions/releases/download/v9.1.1/Yes-Sessions-9.1.1-arm64.dmg"
+  url "https://github.com/KrabsWong/homebrew-yes-sessions/releases/download/v9.1.2/Yes-Sessions-9.1.2-arm64.dmg"
   name "Yes Sessions"
   desc "AI Session Manager - Browse and resume your AI conversations"
   homepage "https://github.com/KrabsWong/agent-manager"
