@@ -1,25 +1,27 @@
 # Yes Sessions Homebrew Tap
 
-🍺 Homebrew Tap for [Yes Sessions](https://github.com/KrabsWong/agent-manager) - AI Session Manager
+[Yes Sessions](https://github.com/KrabsWong/yes-sessions) is a native Rust/GPUI app for browsing and resuming local AI CLI sessions.
 
-<img width="600" alt="1" src="https://github.com/user-attachments/assets/4abe053f-d52f-4e94-a031-f32d9d6df8fc" />
-
-
-## Installation
+## Install
 
 ```bash
-# Add this tap
 brew tap krabswong/yes-sessions
-
-# Install Yes Sessions
 brew install --cask yes-sessions
 ```
 
 ## Upgrade
 
 ```bash
+brew update
 brew upgrade --cask yes-sessions
 ```
+
+## Requirements
+
+- macOS 13 Ventura or later
+- Apple Silicon
+
+Releases may use ad-hoc signing without Apple notarization; check the source release notes for signing status. If macOS blocks the first launch, open System Settings → Privacy & Security → Open Anyway. Managed devices may restrict this option.
 
 ## Uninstall
 
@@ -28,15 +30,4 @@ brew uninstall --cask yes-sessions
 brew untap krabswong/yes-sessions
 ```
 
-## Requirements
-
-- macOS 11.0 (Big Sur) or later
-- Apple Silicon (M1/M2/M3/M4)
-
-## About Yes Sessions
-
-Yes Sessions is an AI session manager that helps you browse and resume conversations with AI applications like Claude Code, OpenCode, and more.
-
-**Homepage**: https://github.com/KrabsWong/agent-manager
-
-**Latest Release**: https://github.com/KrabsWong/agent-manager/releases/latest
+[Latest release](https://github.com/KrabsWong/homebrew-yes-sessions/releases/latest)
