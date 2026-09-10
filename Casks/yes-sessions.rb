@@ -1,6 +1,6 @@
 cask "yes-sessions" do
-  version "11.2.1"
-  sha256 "b3af046f2f4e26721aadcdf0ab3d9ddcb1e699900c5a9f3614f1cbec0054b59e"
+  version "11.2.2"
+  sha256 "089453fc0e408e95af2e7090aae3e4d18c376380493b4ff76758cdd7956434e8"
 
   url "https://github.com/KrabsWong/homebrew-yes-sessions/releases/download/v#{version}/Yes-Sessions-#{version}-arm64.dmg"
   name "Yes Sessions"
