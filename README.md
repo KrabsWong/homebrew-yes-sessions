@@ -6,8 +6,11 @@
 
 ```bash
 brew tap krabswong/yes-sessions
+brew trust krabswong/yes-sessions
 brew install --cask yes-sessions
 ```
+
+If Homebrew says the tap is untrusted, run `brew trust krabswong/yes-sessions` and retry the installation.
 
 ## Upgrade
 
